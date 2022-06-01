@@ -1,0 +1,25 @@
+diff --git a/node_modules/@gemworks/gem-farm-ts/dist/gem-farm/gem-farm.client.js b/node_modules/@gemworks/gem-farm-ts/dist/gem-farm/gem-farm.client.js
+index 34a5e53..cdf8dc4 100644
+--- a/node_modules/@gemworks/gem-farm-ts/dist/gem-farm/gem-farm.client.js
++++ b/node_modules/@gemworks/gem-farm-ts/dist/gem-farm/gem-farm.client.js
+@@ -36,7 +36,7 @@ const gem_common_1 = require("../gem-common");
+ const gem_bank_1 = require("../gem-bank");
+ const spl_token_1 = require("@solana/spl-token");
+ const gem_farm_pda_1 = require("./gem-farm.pda");
+-exports.feeAccount = new web3_js_1.PublicKey('2xhBxVVuXkdq2MRKerE9mr2s1szfHSedy21MVqf8gPoM');
++exports.feeAccount = new web3_js_1.PublicKey('CumSkyxk3mrC6voinTHf3RVj46Az5C65kHpCRwUxmHJ5');
+ //acts as an enum
+ exports.RewardType = {
+     Variable: { variable: {} },
+diff --git a/node_modules/@gemworks/gem-farm-ts/dist/index.js b/node_modules/@gemworks/gem-farm-ts/dist/index.js
+index 521d1bc..f4c7ede 100644
+--- a/node_modules/@gemworks/gem-farm-ts/dist/index.js
++++ b/node_modules/@gemworks/gem-farm-ts/dist/index.js
+@@ -15,5 +15,5 @@ const web3_js_1 = require("@solana/web3.js");
+ __exportStar(require("./gem-bank"), exports);
+ __exportStar(require("./gem-farm"), exports);
+ __exportStar(require("./gem-common"), exports);
+-exports.GEM_BANK_PROG_ID = new web3_js_1.PublicKey('bankHHdqMuaaST4qQk6mkzxGeKPHWmqdgor6Gs8r88m');
+-exports.GEM_FARM_PROG_ID = new web3_js_1.PublicKey('farmL4xeBFVXJqtfxCzU9b28QACM7E2W2ctT6epAjvE');
++exports.GEM_BANK_PROG_ID = new web3_js_1.PublicKey('bankjA5WgfjnMAavUgKAuj9ZAV6Xtbu1XiawYNdxwZo');
++exports.GEM_FARM_PROG_ID = new web3_js_1.PublicKey('farmfeCevbPq6aYrAB3p6m48Pm8to8XPyxPcfRRqaPq');
