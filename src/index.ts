@@ -8,5 +8,5 @@ export const GEM_BANK_PROG_ID = new PublicKey(
   'bankHHdqMuaaST4qQk6mkzxGeKPHWmqdgor6Gs8r88m'
 );
 export const GEM_FARM_PROG_ID = new PublicKey(
-  'farmfeCevbPq6aYrAB3p6m48Pm8to8XPyxPcfRRqaPq'
+  'farmL4xeBFVXJqtfxCzU9b28QACM7E2W2ctT6epAjvE'
 );
